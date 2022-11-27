@@ -53,11 +53,12 @@ body {
 .main-content {
     display: inline-block;
     width: var(--width);
+    margin-top: 8px;
     margin-left: calc((100% - var(--width)) / 2);
     background-color: darkgrey;
     color: var(--color);
     border-radius: 5px;
-    box-shadow: 0 30px 70px -30px #781405;
+    box-shadow: 0 30px 150px -40px #781405;
 }
 
 .left-column {
