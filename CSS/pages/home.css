@@ -1,36 +1,14 @@
 :root {
-    --width: 1400px;
-    --color: #404040; /*#292829;*/
-    --header-height: 80px;
+    --color: #404040;
 }
 
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #B1B1A6;
-}
-
-.main-header {
-    display: inline-block;
-    width: var(--width);
-    margin-top: 4em;
-    margin-left: calc((100% - var(--width)) / 2);
+.cintainer > .main-header {
     background-color: darkgrey;
     border-radius: 5px;
 }
 
-.logo {
-    height: var(--header-height);
-    margin-left: 10px;
-    float: left;
-}
-
-.main-nav {
-    float: right;
-    margin-right: 25px;
-}
-
 .main-nav > .link {
-    display: inline-block;
+    float: right;
     margin-right: 100px;
     font-size: 16px;
     margin-top: 20px;
@@ -49,37 +27,15 @@ body {
 
 }
 
-
 .main-content {
-    display: inline-block;
-    width: var(--width);
-    margin-top: 8px;
-    margin-left: calc((100% - var(--width)) / 2);
     background-color: darkgrey;
     color: var(--color);
     border-radius: 5px;
     box-shadow: 0 30px 150px -40px #781405;
 }
 
-.left-column {
-    width: 48%;
-    float: left;
-    background-color: darkgrey;
-    margin-left: 0.7em;
-}
-
-.right-column {
-    width: 48%;
-    float: right;
-    background-color: darkgrey; /*#D5E1D8;*/
-}
-
 .main-image{
-    width: 55%;
-    text-align: center;
-    margin-left: 9em;
-    margin-top: 3em;
-    margin-bottom: 4em;
+    width: 400px;
     border-radius: 3px;
 }
 
@@ -138,4 +94,3 @@ body {
 .socials>.icon:hover {
     color: #781405;
 }
-
